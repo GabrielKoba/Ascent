@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Animator), typeof(PlayerMovementController))]
 public class PlayerEvents : MonoBehaviour {
 
     private Animator m_Animator;
+    private PlayerMovementController m_MovementController;
 
     [Header("Animation Settings")]
     [SerializeField] string m_dashAnimBool; // The name of the bool to play the entity's jump animation in the animator.
@@ -12,19 +13,20 @@ public class PlayerEvents : MonoBehaviour {
 
     [Header("Audio Settings")]
 	[FMODUnity.EventRef][SerializeField] string stepSFX; //The sound it plays once the player takes a step.
-    [FMODUnity.EventRef][SerializeField] string dashStartSFX; //The sound it plays once the player starts dashing.
-    [FMODUnity.EventRef][SerializeField] string dashStopSFX; //The sound it plays once the player stops dashing.
+    [FMODUnity.EventRef][SerializeField] string dashSFX; //The sound it plays once the player starts dashing.
     [FMODUnity.EventRef][SerializeField] string hurtSFX;    // The sound it plays once the player is hurt.
     [FMODUnity.EventRef][SerializeField] string deathSFX;    // The sound it plays once the player is hurt.
     [FMODUnity.EventRef][SerializeField] string attackSFX; // The sound it plays once the player attacks.
     [FMODUnity.EventRef][SerializeField] string blockSFX;    // The sound it plays once the player successfully blocks an attack.
-    [FMODUnity.EventRef][SerializeField] string blockingSFX;    // The sound it plays once the player successfully blocks an attack.
+    [FMODUnity.EventRef][SerializeField] string blockingSFX;    // The sound it plays once the player starts blocking.
+    [FMODUnity.EventRef][SerializeField] string blockingStopSFX;    // The sound it plays once the player block ends without defending from an attack.
     private FMOD.Studio.EventInstance blockingSFX_Instance;
     [FMODUnity.EventRef][SerializeField] string blockOnCooldownSFX;   // The sound it plays once the player blocks but is on cooldown.
 
     //Get needed components.
     private void Awake() {
         m_Animator = GetComponent<Animator>();
+        m_MovementController = GetComponent<PlayerMovementController>();
     }
 
 	public void OnStep() {
@@ -36,13 +38,10 @@ public class PlayerEvents : MonoBehaviour {
         m_Animator.SetBool(m_dashAnimBool, true); // Starts the character's dash animation
 
 		// Plays the sound for when the player starts dashing.
-		FMODUnity.RuntimeManager.PlayOneShot(dashStartSFX, transform.position);
+		FMODUnity.RuntimeManager.PlayOneShot(dashSFX, transform.position);
 	}
     public void OnDashStop() {
         m_Animator.SetBool(m_dashAnimBool, false); // Stops the character's dash animation
-
-        // Plays the sound for when the player stops dashing.
-		FMODUnity.RuntimeManager.PlayOneShot(dashStopSFX, transform.position);
 	}
 
     public void OnDamageTaken() {
@@ -58,8 +57,16 @@ public class PlayerEvents : MonoBehaviour {
     public void OnAttack() {
         m_Animator.SetTrigger(m_attackAnimTrigger); // Triggers the character's attack animation
 
+        // Sends info to movement controller.
+        m_MovementController.isAttacking = true;
+
 		// Plays the sound for when the player attacks.
         FMODUnity.RuntimeManager.PlayOneShot(attackSFX, transform.position);
+    }
+
+    public void OnAttackEnd() {
+        // Sends info to movement controller.
+        m_MovementController.isAttacking = false;    
     }
 
     public void OnBlock() {
@@ -72,8 +79,6 @@ public class PlayerEvents : MonoBehaviour {
     }
 
     public void OnStartBlocking() {
-        Debug.Log("Blocking");
-
         m_Animator.SetBool(m_blockAnimBool, true);  // Starts blocking animation.
 
         // Plays the sound for when the player is blocking.
@@ -82,11 +87,10 @@ public class PlayerEvents : MonoBehaviour {
     }
 
     public void OnStopBlocking() {
-        Debug.Log("Not Blocking");
-
         m_Animator.SetBool(m_blockAnimBool, false); // Ends blocking animation.
 
         // Stops the sound for when the player stops blocking.
+        FMODUnity.RuntimeManager.PlayOneShot(blockingStopSFX, transform.position);
         blockingSFX_Instance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE); // Stops blocking sound
         blockingSFX_Instance.release();
     }

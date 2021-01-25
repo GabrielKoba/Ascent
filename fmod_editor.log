@@ -8,10 +8,9 @@
 [WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001222EB09778 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000020B08BF2FE8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
-[WRN] OutputWASAPI::mixerThread                : Starvation detected in WASAPI output buffer!
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -21,6 +20,33 @@
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 7
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {56d61293-e442-49cf-b833-1fd09e776d29}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ba71adb7-b644-4de7-bf10-437d6970834e}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {c16c3d6f-abe3-438c-9e09-dcd07f00391f}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {29862977-dea3-4415-9ed2-cf2594ab7205}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {049fecd4-a151-4070-8095-95cc021142e1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3c73a5d3-d397-4d1d-a035-b941086fc91b}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a2f9bebd-8a2f-499a-8ceb-482834aee440}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d4e8bb5b-c1f0-47ea-bd00-b5ef21d83587}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {7714b2b6-412b-4af5-93dc-7ce54f4916c8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d1655e42-2f36-486b-a103-58b8f4b8349c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {fdaf45d6-194d-460e-91c5-51607264220b}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {065ebdf7-baf0-4145-b9d6-1c0a30fa3f83}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {1331b401-1c2e-473d-97e9-26dc707af2ee}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f9c48f06-4ca4-4eb4-b836-89b0c798cb71}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ccca5678-ae3d-4db3-843a-90395c56e7c9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e69b0d9f-6267-40e4-b45a-947277f47fca}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {85046176-fcd3-4942-826d-c41a07f7f8a3}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {826186e9-74a1-43d1-9e29-171f772c05ac}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {fd589ec3-ea40-4c73-8426-d8832dc4b51a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {4a4c2c2f-be47-484b-9b9d-658360572a6d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {0d7c72fa-98cd-4352-8ebe-d6f9f22ae140}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {049fecd4-a151-4070-8095-95cc021142e1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3c73a5d3-d397-4d1d-a035-b941086fc91b}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a2f9bebd-8a2f-499a-8ceb-482834aee440}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d4e8bb5b-c1f0-47ea-bd00-b5ef21d83587}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {7714b2b6-412b-4af5-93dc-7ce54f4916c8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d1655e42-2f36-486b-a103-58b8f4b8349c}
 [WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b6c8974e-d682-46c5-92d0-e982a992b3f0}
 [WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {0cdab940-b4ad-4e14-bd5b-53d4ba9d18b8}
 [WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8836c9d5-fcef-453b-9b6b-96e88a67c610}
@@ -31,7 +57,761 @@
 [WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {0ad48860-c568-48fe-adea-773754dc12a1}
 [WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {065be8bc-dea2-46fa-a2d7-71b81182934c}
 [WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {db292d9a-a93a-4c77-acef-8c43d91ceb39}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8fd75c04-460b-4ec3-b63c-b9452b0f454c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {41099081-91a1-42ed-a5c4-84beec71d41f}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b1854d0e-b7e7-44c0-bd78-b06a08c8e937}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b8f05d69-7693-4974-aa4d-c02ca950a6a0}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {19e23739-cc79-4f8d-9d74-84ff40953b00}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {cbee34b4-d0f2-4cf1-975b-8850c414d085}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {56096a18-ff13-4236-a862-0952c53792f1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {c7923f4f-b591-42b3-818d-9efef38fda56}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a82744a4-fbd3-4e29-b11b-360290fc03f9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f5adf849-5d59-4bf5-9b9a-3465ae176e34}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {700b3c47-ed2b-4716-9480-2ddfc1627f9a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {36a3def1-8274-462e-9376-530d82a63684}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {faa357b9-885c-465c-8ba1-796e2474a444}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a8548128-659a-4135-90a9-be9058303ffc}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ea493fa1-1cbc-4374-b10a-de974590ae91}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ab88d42e-fc33-4b39-8e20-b087351b20ce}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {311f347b-1999-4329-bb44-bd9f31ade1ee}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f190ebb3-9787-436e-94a3-4b0434462e8d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {18ec020a-0b82-47fa-a9d3-949beb2d9f61}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f2c75f2c-fb4a-4517-a0d6-af6cf768b6f4}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ba839d62-0b43-4817-a489-026f7eeca98d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8f08cc5a-8e67-4070-8e00-e8442e6927de}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3b55c33b-fedb-4447-a9db-1f86a46273ad}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {617eb436-1f62-4c33-91d7-0b3e7201f3a0}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {47b82aa7-3ed3-4d52-8efe-3c712b0c7fb3}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e1b2909d-4d25-4f3f-9a2a-99a6685d133d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {c04b2380-b24a-41c3-92b6-fd7333c735cc}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {46cbc0da-2114-4728-8964-26830972a934}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3067eeaf-bb61-47c9-9e8e-cca512b364a8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {31a572f1-0f3f-4791-bbbf-21e1086b12f6}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e8f3bc8c-e184-4ee0-8c52-63c3dc826fbe}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b5fc544f-aceb-4f81-94a4-1da39a6b42d9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {bc7e3e41-14c2-4b70-96e7-f3dca40e7a14}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {5dbe317a-cce5-4171-99da-1d6456a8be80}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {46cbc0da-2114-4728-8964-26830972a934}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3067eeaf-bb61-47c9-9e8e-cca512b364a8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {31a572f1-0f3f-4791-bbbf-21e1086b12f6}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e8f3bc8c-e184-4ee0-8c52-63c3dc826fbe}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b5fc544f-aceb-4f81-94a4-1da39a6b42d9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {bc7e3e41-14c2-4b70-96e7-f3dca40e7a14}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {5dbe317a-cce5-4171-99da-1d6456a8be80}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3a9bd95a-81aa-4273-8842-e2f8c94cba02}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {24de2c5c-29c0-49b5-88e0-4c8b68b745db}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ede2450b-4f94-4c67-8d15-f8fb2443ec87}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e8f3bc8c-e184-4ee0-8c52-63c3dc826fbe}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {bc7e3e41-14c2-4b70-96e7-f3dca40e7a14}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {5dbe317a-cce5-4171-99da-1d6456a8be80}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_03', format=5, channels=2, frequency=48000, lengthbytes=7328, lengthpcm=44538, pcmblocksize=0, loopstart=0, loopend=44306, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.808746.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_04', format=5, channels=2, frequency=48000, lengthbytes=5760, lengthpcm=45000, pcmblocksize=0, loopstart=0, loopend=44307, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.190186.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_10', format=5, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=44769, pcmblocksize=0, loopstart=0, loopend=44307, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.132141.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Shuffling_06', format=5, channels=2, frequency=48000, lengthbytes=16544, lengthpcm=66462, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.134644.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Shuffling_04', format=5, channels=2, frequency=48000, lengthbytes=18400, lengthpcm=66462, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.112885.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_07', format=5, channels=2, frequency=48000, lengthbytes=7328, lengthpcm=44538, pcmblocksize=0, loopstart=0, loopend=44306, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.808746.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_05', format=5, channels=2, frequency=48000, lengthbytes=5696, lengthpcm=44538, pcmblocksize=0, loopstart=0, loopend=44306, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.106842.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_06', format=5, channels=2, frequency=48000, lengthbytes=5760, lengthpcm=45000, pcmblocksize=0, loopstart=0, loopend=44307, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.190186.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Shuffling_05', format=5, channels=2, frequency=48000, lengthbytes=22752, lengthpcm=88614, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.124664.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Shuffling_03', format=5, channels=2, frequency=48000, lengthbytes=16992, lengthpcm=66462, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.200867.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_09', format=5, channels=2, frequency=48000, lengthbytes=6592, lengthpcm=44538, pcmblocksize=0, loopstart=0, loopend=44306, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.458374.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Shuffling_02', format=5, channels=2, frequency=48000, lengthbytes=13024, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.110077.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Shuffling_01', format=5, channels=2, frequency=48000, lengthbytes=16768, lengthpcm=66462, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.073608.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_01', format=5, channels=2, frequency=48000, lengthbytes=6592, lengthpcm=44538, pcmblocksize=0, loopstart=0, loopend=44306, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.458374.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_08', format=5, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=44769, pcmblocksize=0, loopstart=0, loopend=44307, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.132141.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Step_Stone_02', format=5, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=44769, pcmblocksize=0, loopstart=0, loopend=44307, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.132141.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAC28
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Dash_03', format=5, channels=2, frequency=48000, lengthbytes=8160, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.998688.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAC28
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Dash_01', format=5, channels=2, frequency=48000, lengthbytes=9696, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.998993.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAC28
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Dash_02', format=5, channels=2, frequency=48000, lengthbytes=7232, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.998352.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAA18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_on_Cooldown_01', format=5, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=22154, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.415649.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Start_01', format=5, channels=2, frequency=48000, lengthbytes=11104, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.081512.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Start_03', format=5, channels=2, frequency=48000, lengthbytes=10304, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.047394.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Start_04', format=5, channels=2, frequency=48000, lengthbytes=11104, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.171204.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA3E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Start_02', format=5, channels=2, frequency=48000, lengthbytes=11072, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.135345.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA5F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_End_03', format=5, channels=2, frequency=48000, lengthbytes=12512, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.742584.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA5F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_End_02', format=5, channels=2, frequency=48000, lengthbytes=12128, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.717407.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA5F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_End_01', format=5, channels=2, frequency=48000, lengthbytes=11232, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.683868.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Hit_03', format=5, channels=2, frequency=48000, lengthbytes=11936, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.385712.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Hit_05', format=5, channels=2, frequency=48000, lengthbytes=13184, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.286987.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Hit_06', format=5, channels=2, frequency=48000, lengthbytes=12320, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.482483.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Hit_04', format=5, channels=2, frequency=48000, lengthbytes=10112, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.450592.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Hit_02', format=5, channels=2, frequency=48000, lengthbytes=12512, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.638123.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CA808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Hit_01', format=5, channels=2, frequency=48000, lengthbytes=11200, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.468536.
+[LOG] SoundI::release                          :  (0000020B0B850348)
+[LOG] SoundI::release                          :     Player_Shuffling_01 (0000020AA3256C78)
+[LOG] SoundI::release                          :  (0000020B0B8528A8)
+[LOG] SoundI::release                          :     Player_Shuffling_02 (0000020AA32584D8)
+[LOG] SoundI::release                          :  (0000020B0B850068)
+[LOG] SoundI::release                          :     Player_Shuffling_03 (0000020ABDEA1E78)
+[LOG] SoundI::release                          :  (0000020B0B852178)
+[LOG] SoundI::release                          :     Player_Shuffling_04 (0000020ABDEA0E38)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAA18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Hit_02', format=5, channels=2, frequency=48000, lengthbytes=10528, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.432709.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAA18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Hit_03', format=5, channels=2, frequency=48000, lengthbytes=10880, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.470947.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAA18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Hit_04', format=5, channels=2, frequency=48000, lengthbytes=10272, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.407227.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 636032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4640
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000089C32EEF48
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB56E87DE0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB56E87DB0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB56E87EB0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB56E87F70
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000020B0F0CAA18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_Parry_Hit_01', format=5, channels=2, frequency=48000, lengthbytes=10944, lengthpcm=44308, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.446747.
+[LOG] SoundI::release                          :  (0000020B0B853E38)
+[LOG] SoundI::release                          :     Player_Shuffling_05 (0000020ABDEA1658)
+[LOG] SoundI::release                          :  (0000020B0B853598)
+[LOG] SoundI::release                          :     Player_Shuffling_06 (0000020ABDEA1318)
+[LOG] SoundI::release                          :  (0000020B0B851318)
+[LOG] SoundI::release                          :     Player_Step_Stone_01 (0000020AA32572F8)
+[LOG] SoundI::release                          :  (0000020B0B8515F8)
+[LOG] SoundI::release                          :     Player_Step_Stone_02 (0000020AC233D658)
+[LOG] SoundI::release                          :  (0000020B0B852CF8)
+[LOG] SoundI::release                          :     Player_Step_Stone_03 (0000020ABDEA0958)
+[LOG] SoundI::release                          :  (0000020B0B850798)
+[LOG] SoundI::release                          :     Player_Step_Stone_04 (0000020ABDEA17F8)
+[LOG] SoundI::release                          :  (0000020B0B8522E8)
+[LOG] SoundI::release                          :     Player_Step_Stone_05 (0000020ABDEA1178)
+[LOG] SoundI::release                          :  (0000020B0B852458)
+[LOG] SoundI::release                          :     Player_Step_Stone_06 (0000020ABDEA1CD8)
+[LOG] SoundI::release                          :  (0000020B0B8539E8)
+[LOG] SoundI::release                          :     Player_Step_Stone_07 (0000020ABDEA0FD8)
+[LOG] SoundI::release                          :  (0000020B0B851488)
+[LOG] SoundI::release                          :     Player_Step_Stone_08 (0000020AC233C7B8)
+[LOG] SoundI::release                          :  (0000020B0B850908)
+[LOG] SoundI::release                          :     Player_Step_Stone_09 (0000020AA3258338)
+[LOG] SoundI::release                          :  (0000020B0B853878)
+[LOG] SoundI::release                          :     Player_Step_Stone_10 (0000020ABDEA0478)
+[LOG] SoundI::release                          :  (0000020AC2519DF8)
+[LOG] SoundI::release                          :     Player_Dash_03 (0000020ABE68B948)
+[LOG] SoundI::release                          :  (0000020AC251A978)
+[LOG] SoundI::release                          :     Player_Dash_01 (0000020ABE68BAE8)
+[LOG] SoundI::release                          :  (0000020AC251A698)
+[LOG] SoundI::release                          :     Player_Dash_02 (0000020ABE68DB68)
+[LOG] SoundI::release                          :  (0000020AC251AAE8)
+[LOG] SoundI::release                          :     Player_Parry_on_Cooldown_01 (0000020B26F23F98)
+[LOG] SoundI::release                          :  (0000020B26475448)
+[LOG] SoundI::release                          :     Player_Hit_01 (0000020B0D407728)
+[LOG] SoundI::release                          :  (0000020B264752D8)
+[LOG] SoundI::release                          :     Player_Hit_02 (0000020B0D4073E8)
+[LOG] SoundI::release                          :  (0000020B26474D18)
+[LOG] SoundI::release                          :     Player_Hit_03 (0000020ABF9EE258)
+[LOG] SoundI::release                          :  (0000020B26474FF8)
+[LOG] SoundI::release                          :     Player_Hit_04 (0000020B0D406BC8)
+[LOG] SoundI::release                          :  (0000020B26474478)
+[LOG] SoundI::release                          :     Player_Hit_05 (0000020A57D4A5C8)
+[LOG] SoundI::release                          :  (0000020B26474308)
+[LOG] SoundI::release                          :     Player_Hit_06 (0000020B0D4078C8)
+[LOG] SoundI::release                          :  (0000020AC251AC58)
+[LOG] SoundI::release                          :     Player_Parry_Start_01 (0000020B26F24958)
+[LOG] SoundI::release                          :  (0000020AC251A248)
+[LOG] SoundI::release                          :     Player_Parry_Start_02 (0000020ABF9ED218)
+[LOG] SoundI::release                          :  (0000020AC251ADC8)
+[LOG] SoundI::release                          :     Player_Parry_Start_03 (0000020B26F21BD8)
+[LOG] SoundI::release                          :  (0000020AC251A0D8)
+[LOG] SoundI::release                          :     Player_Parry_Start_04 (0000020ABF9EEDB8)
+[LOG] SoundI::release                          :  (0000020B26475E58)
+[LOG] SoundI::release                          :     Player_Parry_Hit_04 (0000020B0D407248)
+[LOG] SoundI::release                          :  (0000020B297B0018)
+[LOG] SoundI::release                          :     Player_Parry_Hit_01 (0000020B0D407A68)
+[LOG] SoundI::release                          :  (0000020B26475728)
+[LOG] SoundI::release                          :     Player_Parry_Hit_02 (0000020B0D406D68)
+[LOG] SoundI::release                          :  (0000020B26475CE8)
+[LOG] SoundI::release                          :     Player_Parry_Hit_03 (0000020B0D406F08)
+[LOG] SoundI::release                          :  (0000020B2A1A1AA8)
+[LOG] SoundI::release                          :     Crow_Calm_08 (0000020ABF9EDBD8)
+[LOG] SoundI::release                          :  (0000020B2A1A1208)
+[LOG] SoundI::release                          :     Crow_Calm_11 (0000020ABDF37C78)
+[LOG] SoundI::release                          :  (0000020B0B852A18)
+[LOG] SoundI::release                          :     Crow_Calm_02 (0000020ABF9EE598)
+[LOG] SoundI::release                          :  (0000020B2A19EF88)
+[LOG] SoundI::release                          :     Crow_Calm_06 (0000020ABDF3B3B8)
+[LOG] SoundI::release                          :  (0000020B2A19F828)
+[LOG] SoundI::release                          :     Crow_Calm_01 (0000020ABDF37938)
+[LOG] SoundI::release                          :  (0000020B2A1A0DB8)
+[LOG] SoundI::release                          :     Crow_Calm_04 (0000020ABDF39818)
+[LOG] SoundI::release                          :  (0000020B2A1A2D58)
+[LOG] SoundI::release                          :     Crow_Calm_03 (0000020ABDF3B6F8)
+[LOG] SoundI::release                          :  (0000020B2A19F0F8)
+[LOG] SoundI::release                          :     Crow_Calm_12 (0000020ABDF37AD8)
+[LOG] SoundI::release                          :  (0000020B2A1A0C48)
+[LOG] SoundI::release                          :     Crow_Calm_10 (0000020ABDF3A518)
+[LOG] SoundI::release                          :  (0000020B2A1A0F28)
+[LOG] SoundI::release                          :     Crow_Calm_13 (0000020ABDF399B8)
+[LOG] SoundI::release                          :  (0000020B2A19FB08)
+[LOG] SoundI::release                          :     Crow_Calm_05 (0000020ABDF39198)
+[LOG] SoundI::release                          :  (0000020B2A1A1098)
+[LOG] SoundI::release                          :     Crow_Calm_09 (0000020ABDF39B58)
+[LOG] SoundI::release                          :  (0000020B2A1A1938)
+[LOG] SoundI::release                          :     Crow_Calm_07 (0000020ABF9ED078)
+[LOG] SoundI::release                          :  (0000020AC251B218)
+[LOG] SoundI::release                          :     Player_Parry_End_01 (0000020AA31E7EC8)
+[LOG] SoundI::release                          :  (0000020AC251B0A8)
+[LOG] SoundI::release                          :     Player_Parry_End_02 (0000020AA31E71C8)
+[LOG] SoundI::release                          :  (0000020AC251AF38)
+[LOG] SoundI::release                          :     Player_Parry_End_03 (0000020AC233A8D8)
+[LOG] Thread::callback                         : FMOD Convolution thread finished.
+[LOG] Thread::callback                         : FMOD Convolution thread finished.
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -39,3 +819,105 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 7
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {56d61293-e442-49cf-b833-1fd09e776d29}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ba71adb7-b644-4de7-bf10-437d6970834e}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {c16c3d6f-abe3-438c-9e09-dcd07f00391f}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {29862977-dea3-4415-9ed2-cf2594ab7205}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {049fecd4-a151-4070-8095-95cc021142e1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3c73a5d3-d397-4d1d-a035-b941086fc91b}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a2f9bebd-8a2f-499a-8ceb-482834aee440}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d4e8bb5b-c1f0-47ea-bd00-b5ef21d83587}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {7714b2b6-412b-4af5-93dc-7ce54f4916c8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d1655e42-2f36-486b-a103-58b8f4b8349c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {fdaf45d6-194d-460e-91c5-51607264220b}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {065ebdf7-baf0-4145-b9d6-1c0a30fa3f83}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {1331b401-1c2e-473d-97e9-26dc707af2ee}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f9c48f06-4ca4-4eb4-b836-89b0c798cb71}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ccca5678-ae3d-4db3-843a-90395c56e7c9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e69b0d9f-6267-40e4-b45a-947277f47fca}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {85046176-fcd3-4942-826d-c41a07f7f8a3}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {826186e9-74a1-43d1-9e29-171f772c05ac}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {fd589ec3-ea40-4c73-8426-d8832dc4b51a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {4a4c2c2f-be47-484b-9b9d-658360572a6d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {0d7c72fa-98cd-4352-8ebe-d6f9f22ae140}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {049fecd4-a151-4070-8095-95cc021142e1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3c73a5d3-d397-4d1d-a035-b941086fc91b}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a2f9bebd-8a2f-499a-8ceb-482834aee440}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d4e8bb5b-c1f0-47ea-bd00-b5ef21d83587}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {7714b2b6-412b-4af5-93dc-7ce54f4916c8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d1655e42-2f36-486b-a103-58b8f4b8349c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b6c8974e-d682-46c5-92d0-e982a992b3f0}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {0cdab940-b4ad-4e14-bd5b-53d4ba9d18b8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8836c9d5-fcef-453b-9b6b-96e88a67c610}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {61dc6d84-2e25-4714-9ca7-b61d308e262f}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {20fd61ad-495d-4dab-9ee2-adf4dd817fdf}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {99a71a57-1e4e-4b0e-83c3-21568b2baf65}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {c59b4535-ad46-4581-8a8f-aabb1fde8c98}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {0ad48860-c568-48fe-adea-773754dc12a1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {065be8bc-dea2-46fa-a2d7-71b81182934c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {db292d9a-a93a-4c77-acef-8c43d91ceb39}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8fd75c04-460b-4ec3-b63c-b9452b0f454c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {41099081-91a1-42ed-a5c4-84beec71d41f}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b1854d0e-b7e7-44c0-bd78-b06a08c8e937}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b8f05d69-7693-4974-aa4d-c02ca950a6a0}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {19e23739-cc79-4f8d-9d74-84ff40953b00}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {cbee34b4-d0f2-4cf1-975b-8850c414d085}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {56096a18-ff13-4236-a862-0952c53792f1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {c7923f4f-b591-42b3-818d-9efef38fda56}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a82744a4-fbd3-4e29-b11b-360290fc03f9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f5adf849-5d59-4bf5-9b9a-3465ae176e34}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {700b3c47-ed2b-4716-9480-2ddfc1627f9a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {36a3def1-8274-462e-9376-530d82a63684}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {faa357b9-885c-465c-8ba1-796e2474a444}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {a8548128-659a-4135-90a9-be9058303ffc}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ea493fa1-1cbc-4374-b10a-de974590ae91}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ab88d42e-fc33-4b39-8e20-b087351b20ce}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {311f347b-1999-4329-bb44-bd9f31ade1ee}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f190ebb3-9787-436e-94a3-4b0434462e8d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {18ec020a-0b82-47fa-a9d3-949beb2d9f61}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f2c75f2c-fb4a-4517-a0d6-af6cf768b6f4}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ba839d62-0b43-4817-a489-026f7eeca98d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8f08cc5a-8e67-4070-8e00-e8442e6927de}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3b55c33b-fedb-4447-a9db-1f86a46273ad}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {617eb436-1f62-4c33-91d7-0b3e7201f3a0}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {47b82aa7-3ed3-4d52-8efe-3c712b0c7fb3}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e1b2909d-4d25-4f3f-9a2a-99a6685d133d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {c04b2380-b24a-41c3-92b6-fd7333c735cc}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {46cbc0da-2114-4728-8964-26830972a934}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3067eeaf-bb61-47c9-9e8e-cca512b364a8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {31a572f1-0f3f-4791-bbbf-21e1086b12f6}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e8f3bc8c-e184-4ee0-8c52-63c3dc826fbe}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b5fc544f-aceb-4f81-94a4-1da39a6b42d9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {bc7e3e41-14c2-4b70-96e7-f3dca40e7a14}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {5dbe317a-cce5-4171-99da-1d6456a8be80}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {46cbc0da-2114-4728-8964-26830972a934}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3067eeaf-bb61-47c9-9e8e-cca512b364a8}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {31a572f1-0f3f-4791-bbbf-21e1086b12f6}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e8f3bc8c-e184-4ee0-8c52-63c3dc826fbe}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b5fc544f-aceb-4f81-94a4-1da39a6b42d9}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {bc7e3e41-14c2-4b70-96e7-f3dca40e7a14}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {5dbe317a-cce5-4171-99da-1d6456a8be80}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3a9bd95a-81aa-4273-8842-e2f8c94cba02}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {24de2c5c-29c0-49b5-88e0-4c8b68b745db}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {ede2450b-4f94-4c67-8d15-f8fb2443ec87}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e8f3bc8c-e184-4ee0-8c52-63c3dc826fbe}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {bc7e3e41-14c2-4b70-96e7-f3dca40e7a14}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {5dbe317a-cce5-4171-99da-1d6456a8be80}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {3e35043c-74ac-4510-bfc9-6b12c9424669}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {2ca16598-e710-4fdf-a52c-908c3e1ccfea}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d6fc37b1-5098-43be-8b6c-c4d5ba23c776}
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 135)

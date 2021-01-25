@@ -4,8 +4,8 @@ using UnityEngine.Events;
 public class EntityStats : MonoBehaviour {
 
     [Header("Health Settings")]
-    [SerializeField] int maxHealth = 5;
-    [SerializeField] int currentHealth = 5;
+    [SerializeField] public int maxHealth = 5;
+    [SerializeField] public int currentHealth = 5;
 
     [Header("Block Settings")]
     [SerializeField] bool entityCanBlock;   // Is entity able to block?
@@ -129,6 +129,12 @@ public class EntityStats : MonoBehaviour {
             }
 
             return;
+        }
+
+        if (!myBlock) {
+            blocking = false; // Confirms the block process
+            blockOnCooldown = true; // Puts the block on cooldown.
+            blockDurationElapsed = 0; // Resets the timer on the duration of the block.
         }
     }
 }
